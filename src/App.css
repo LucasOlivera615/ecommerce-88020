@@ -4,9 +4,6 @@ body {
     box-sizing: border-box;
 }
 
-
-
-.tituloSaludo {
-    background-color: red;
-    color: white;
+h1 {
+    display: none;
 }

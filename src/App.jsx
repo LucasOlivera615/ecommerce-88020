@@ -1,15 +1,17 @@
-import { useState } from 'react'
+import NavBar from './Components/NavBar/NavBar'
 import './App.css'
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 
 function App() {
 
-  
+
 
   return (
-    <div>
-      
-    </div>
-
+    <>
+      <h1>GyL Importaciones</h1>
+      <NavBar />
+      <ItemListContainer saludo={"Bienvenidos a mi ecommerce, GyL Importaciones"}/>
+    </>
   )
 }
 

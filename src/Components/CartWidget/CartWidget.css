@@ -1,0 +1,14 @@
+.carritoContainer{
+    width: 4%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 3rem;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.carrito {
+    width: 3rem;
+}
