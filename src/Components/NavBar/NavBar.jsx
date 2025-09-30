@@ -9,9 +9,9 @@ const NavBar = () => {
         <nav className='navBar'>
             <img src={logo} className='logo' alt="Logo de GyL importaciones" />
             <ul className='categorias'>
-                <li>Indumentaria</li>
-                <li>Accesorios</li>
-                <li>Estilo de vida</li>
+                <li><a href=''>Indumentaria</a></li>
+                <li><a href=''>Accesorios</a></li>
+                <li><a href=''>Estilo de vida</a></li>
             </ul>
             <CartWidget />
         </nav>
