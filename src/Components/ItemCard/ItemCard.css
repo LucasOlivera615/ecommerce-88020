@@ -1,0 +1,15 @@
+.tarjeta {
+    border: 3px solid black;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.tarjeta h2 {
+    background-color: rgba(128, 128, 128, 0.397);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
