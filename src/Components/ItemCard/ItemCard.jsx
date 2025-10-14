@@ -2,12 +2,24 @@ import './ItemCard.css'
 
 const ItemCard = ({ product }) => {
     return (
-        <div className="col-3 m-1 p-0 tarjeta">
-            <h2>{product.nombre}</h2>
-            <p>Precio: {product.precio}</p>
-            <p>Descripción: {product.descripcion}</p>
-            <p>Disponible: {product.stock}</p>
-        </div>
+        <article className="col-3 m-3 p-0 tarjeta">
+            <div className='row w-100 m-0 contenedorTitutlo'>
+                <div className='col-12 p-0 titulo'>
+                    <h2 className='m-0'>{product.nombre}</h2>
+                </div>
+            </div>
+            <div className='d-flex row w-100 ms-3 mb-2 mt-2 contenedorCaracteristicas'>
+                <div className='col-12 p-0'>
+                    <p className='mb-3 text-start'><strong>Precio:</strong> ${product.precio}</p>
+                </div>
+                <div className='col-12 p-0'>
+                    <p className='mb-3 text-start'><strong>Tipo:</strong> {product.clase}</p>
+                </div>
+                <div className='col-12 p-0'>
+                    <p className='mb-3 text-start'><strong>Disponible:</strong> {product.stock}</p>
+                </div>
+            </div>
+        </article>
     )
 }
 

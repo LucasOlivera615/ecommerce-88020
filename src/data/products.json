@@ -1,40 +1,40 @@
 [
     {
         "id": 1,
-        "nombre": "Remera",
-        "descripcion": "Remera azul marino Puma.",
+        "nombre": "Remera azul marino Puma.",
+        "clase": "Remera",
         "precio": 1200,
         "stock": 3,
         "imagen": ""
     },
     {
         "id": 2,
-        "nombre": "Short",
-        "descripcion": "Short negro Puma.",
+        "nombre": "Short negro Puma.",
+        "clase": "Short",
         "precio": 800,
         "stock": 6,
         "imagen": ""
     },
     {
         "id": 3,
-        "nombre": "Medias",
-        "descripcion": "Medias unisex blancas Puma.",
+        "nombre": "Medias unisex blancas Puma.",
+        "clase": "Medias",
         "precio": 400,
         "stock": 10,
         "imagen": ""
     },
     {
         "id": 4,
-        "nombre": "Short",
-        "descripcion": "Short negro Addidas.",
+        "nombre": "Short negro Addidas.",
+        "clase": "Short",
         "precio": 900,
         "stock": 5,
         "imagen": ""
     },
     {
         "id": 5,
-        "nombre": "Remera",
-        "descripcion": "Remera negra Addidas.",
+        "nombre": "Remera negra Addidas.",
+        "clase": "Remera",
         "precio": 1400,
         "stock": 8,
         "imagen": ""

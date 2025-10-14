@@ -1,15 +1,39 @@
 .tarjeta {
-    border: 3px solid black;
+    height: 15rem;
+    border: 3px solid #9be48385;
     border-radius: 1rem;
     text-align: center;
+    box-shadow: 2px 2px 15px #e653c68c;
+    transition: all 0.5s ease;
 }
 
 .tarjeta h2 {
-    background-color: rgba(128, 128, 128, 0.397);
+    display: flex;
+    background: linear-gradient(to right, #e653c68c, #9be48385);
     overflow: hidden;
-    padding: 0;
-    margin: 0;
+    padding: 0.5rem;
     width: 100%;
+    height: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta:hover {
+    border: 3px solid #e653c68c;
+    box-shadow: 10px 10px 50px #9be48385;
+}
+
+.tarjeta .contenedorTitutlo {
+    height: 7rem;
+}
+
+.tarjeta .contenedorTitutlo .titulo {
+    height: 6rem;
+}
+
+.tarjeta .contenedorCaracteristicas {
+    justify-content: center;
+    align-items: center;
 }

@@ -19,7 +19,7 @@ const ItemListContainer = ({ saludo }) => {
   console.log(products)
 
   return (
-    <>
+    <section>
       <div className='row contenedorSaludo'>
         <div className='col-12 mt-2'>
           <h2 className="saludo">{saludo}</h2>
@@ -28,7 +28,7 @@ const ItemListContainer = ({ saludo }) => {
       <div className='row mt-2'>
         <ItemList products={products} />
       </div>
-    </>
+    </section>
   )
 }
 
