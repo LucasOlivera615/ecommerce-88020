@@ -8,6 +8,11 @@ const ItemCard = ({ product }) => {
                     <h2 className='m-0'>{product.nombre}</h2>
                 </div>
             </div>
+            <div className='row align-items-center justify-content-center w-100 m-0'>
+                <div className='d-flex align-items-center justify-content-center col-12 w-100 p-0'>
+                    <img src={product.imagen} className='w-100' alt="Imagen del producto" />          
+                </div>
+            </div>
             <div className='d-flex row w-100 ms-3 mb-2 mt-2 contenedorCaracteristicas'>
                 <div className='col-12 p-0'>
                     <p className='mb-3 text-start'><strong>Precio:</strong> ${product.precio}</p>
