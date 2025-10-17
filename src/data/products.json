@@ -5,7 +5,7 @@
         "clase": "Remera",
         "precio": 1200,
         "stock": 3,
-        "imagen": "/image/remera-de-hombre-puma-essentials-azul-marino.jpg"
+        "imagen": "/image/remera-de-hombre-puma-essentials-azul-marino-removebg-preview.webp"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "clase": "Short",
         "precio": 800,
         "stock": 6,
-        "imagen": "/image/short-de-hombre-puma-performance-negro.jpg"
+        "imagen": "/image/short-de-hombre-puma-performance-negro-removebg-preview.webp"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "clase": "Medias",
         "precio": 400,
         "stock": 10,
-        "imagen": "/image/medias-unisex-puma-x2-crew-heritage-blanco-negro.jpg"
+        "imagen": "/image/medias-unisex-puma-x2-crew-heritage-blanco-negro-removebg-preview.webp"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "clase": "Short",
         "precio": 900,
         "stock": 5,
-        "imagen": "/image/short-de-mujer-adidas-entrada-22-negro.jpg"
+        "imagen": "/image/short-de-mujer-adidas-entrada-22-negro-removebg-preview.webp"
     },
     {
         "id": 5,
@@ -37,6 +37,6 @@
         "clase": "Remera",
         "precio": 1400,
         "stock": 8,
-        "imagen": "/image/remera-de-hombre-adidas-essentials-logo-negro-blanco.jpg"
+        "imagen": "/image/remera-de-hombre-adidas-essentials-logo-negro-blanco-removebg-preview.webp"
     }
 ]
