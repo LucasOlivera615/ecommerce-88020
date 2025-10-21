@@ -17,6 +17,7 @@
     border-top-right-radius: 1rem;
     align-items: center;
     justify-content: center;
+    font-size: 1.8rem;
 }
 
 .tarjeta:hover {
@@ -35,4 +36,8 @@
 .tarjeta .contenedorCaracteristicas {
     justify-content: center;
     align-items: center;
+}
+
+.contenedorImgProducto {
+    height: 20rem;
 }

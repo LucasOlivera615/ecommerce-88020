@@ -12,9 +12,9 @@ const NavBar = () => {
             </div>
             <div className='col'>
                 <ul className='categorias'>
-                    <li><a href=''>Indumentaria</a></li>
-                    <li><a href=''>Accesorios</a></li>
-                    <li><a href=''>Estilo de vida</a></li>
+                    <li><a className='subrayado' href=''>Indumentaria</a></li>
+                    <li><a className='subrayado' href=''>Accesorios</a></li>
+                    <li><a className='subrayado' href=''>Estilo de vida</a></li>
                 </ul>
             </div>
             <div className='d-flex col h-100 justify-content-end'>

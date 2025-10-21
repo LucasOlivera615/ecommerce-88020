@@ -1,6 +1,5 @@
 .navBar {
     display: flex;
-    
     background: linear-gradient(to left, #E653C6, #9BE483);
     justify-content: space-around;
     align-items: center;
@@ -26,17 +25,58 @@
 }
 
 li {
-    
-    font-weight: bolder;
     margin-top: 3rem;
 }
 
-li:hover {
-    text-decoration: underline;
-    cursor: pointer;
+a {
+    text-decoration: none;
+    font-family: "Tourney", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: #fcfcfc;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
+.subrayado {
+  position: relative;
+  text-decoration: none;
+  color: #fcfcfc;
+  transition: color 0.4s ease;
+}
+
+.subrayado::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 2px;
+  background-color: #000000;
+  transform-origin: center;
+  transform: scaleX(0);
+  pointer-events: none;
+}
+
+.subrayado:hover {
+  color: #E653C6;
+}
+
+.subrayado:hover::after {
+  animation: crecimiento-de-subrayado 1.5s cubic-bezier(.2,.8,.2,1) forwards;
+}
+
+@keyframes crecimiento-de-subrayado {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
 }

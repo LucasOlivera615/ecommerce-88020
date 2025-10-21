@@ -1,11 +1,11 @@
-.contenedorSaludo {
+.contenedorDestacados {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.saludo {
+.destacados {
     text-align: center;
     justify-content: center;
     align-items: center;

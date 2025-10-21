@@ -3,7 +3,7 @@ import './ItemListContainer.css'
 import getProducts from '../../data/products.js'
 import ItemList from '../ItemList/ItemList'
 
-const ItemListContainer = ({ saludo }) => {
+const ItemListContainer = ({ destacados }) => {
 
   const [products, setProducts] = useState([])
 
@@ -20,9 +20,9 @@ const ItemListContainer = ({ saludo }) => {
 
   return (
     <section>
-      <div className='row contenedorSaludo'>
+      <div className='row contenedorDestacados'>
         <div className='col-12 mt-2'>
-          <h2 className="saludo">{saludo}</h2>
+          <h2 className="destacados">{destacados}</h2>
         </div>
       </div>
       <div className='row mt-2'>

@@ -9,7 +9,7 @@ const ItemCard = ({ product }) => {
                 </div>
             </div>
             <div className='row align-items-center justify-content-center w-100 m-0'>
-                <div className='d-flex align-items-center justify-content-center col-12 w-100 p-0'>
+                <div className='d-flex align-items-center justify-content-center col-12 w-100 p-0 contenedorImgProducto'>
                     <img src={product.imagen} className='w-100' alt="Imagen del producto" />          
                 </div>
             </div>

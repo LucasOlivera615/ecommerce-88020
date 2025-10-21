@@ -1,7 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './Components/NavBar/NavBar'
 import './App.css'
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
         </div>
       </header>
       <main className='container'>
-        <ItemListContainer saludo={"Bienvenidos a mi ecommerce, GyL Importaciones"} />
+        <ItemListContainer destacados={"Productos destacados."} />
       </main>
       <footer>
 
