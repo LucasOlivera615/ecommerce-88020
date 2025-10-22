@@ -4,6 +4,7 @@
     text-align: center;
     box-shadow: 2px 2px 15px #e653c68c;
     transition: all 0.5s ease;
+    background-color: rgb(185, 183, 183);
 }
 
 .tarjeta h2 {

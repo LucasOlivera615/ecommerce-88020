@@ -4,7 +4,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to left, #e653c627, #9be4832a);
+    background-color: #1a1a1a;
+    background-image: radial-gradient(circle, #9be48310 1px, transparent 1px),
+        radial-gradient(circle, #e653c610 1px, transparent 1px);
+    background-size: 100px 100px;
 }
 
 p {
@@ -15,16 +18,16 @@ p {
 
 h2 {
     font-family: "Tourney", sans-serif;
-    font-weight: 700 ;
+    font-weight: 700;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
     color: #9BE483;
     text-shadow:
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black;
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
 }
 
 h1 {

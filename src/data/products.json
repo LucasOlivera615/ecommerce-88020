@@ -6,7 +6,7 @@
         "precio": 1200,
         "stock": 3,
         "imagen": "/image/remera-de-hombre-puma-essentials-azul-marino-removebg-preview.webp",
-        "categoría": "indumentaria"
+        "categoria": "indumentaria"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "precio": 800,
         "stock": 6,
         "imagen": "/image/short-de-hombre-puma-performance-negro-removebg-preview.webp",
-        "categoría": "indumentaria"
+        "categoria": "indumentaria"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "precio": 400,
         "stock": 10,
         "imagen": "/image/medias-unisex-puma-x2-crew-heritage-blanco-negro-removebg-preview.webp",
-        "categoría": "indumentaria"
+        "categoria": "indumentaria"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "precio": 900,
         "stock": 5,
         "imagen": "/image/short-de-mujer-adidas-entrada-22-negro-removebg-preview.webp",
-        "categoría": "indumentaria"
+        "categoria": "indumentaria"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "precio": 1400,
         "stock": 8,
         "imagen": "/image/remera-de-hombre-adidas-essentials-logo-negro-blanco-removebg-preview.webp",
-        "categoría": "indumentaria"
+        "categoria": "indumentaria"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "precio": 350,
         "stock": 3,
         "imagen": "/image/D_NQ_NP_936376-MLU74052975536_012024-O-removebg-preview.webp",
-        "categoría": "estilo de vida"
+        "categoria": "estilo-de-vida"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "precio": 700,
         "stock": 5,
         "imagen": "/image/botella-termica-deportiva-785089-removebg-preview.webp",
-        "categoría": "estilo de vida"
+        "categoria": "estilo-de-vida"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "precio": 1000,
         "stock": 2,
         "imagen": "/image/StrapscuadradoWebNegro-removebg-preview.webp",
-        "categoría": "accesorios"
+        "categoria": "accesorios"
     }
 
 ]
