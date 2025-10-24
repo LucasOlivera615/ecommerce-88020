@@ -24,6 +24,7 @@
 .tarjeta:hover {
     border: 3px solid #e653c68c;
     box-shadow: 10px 10px 50px #9be48385;
+    cursor: pointer;
 }
 
 .tarjeta .contenedorTitutlo {

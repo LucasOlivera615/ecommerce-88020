@@ -1,7 +1,7 @@
 import products from "./products.json"
 
 const getProducts = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
         
         setTimeout(()=>{
             resolve(products)

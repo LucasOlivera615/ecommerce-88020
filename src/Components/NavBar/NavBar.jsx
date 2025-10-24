@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
         <nav className='container-fluid navBar'>
             <div className='col'>
-                <Link>
+                <Link to="/">
                     <img src={logo} className='logo' alt="Logo de GyL importaciones" />
                 </Link>
             </div>
