@@ -19,8 +19,11 @@ function App() {
           </div>
         </header>
         <main className='container'>
-          <ItemListContainer destacados={"Productos destacados."} />
-          <ItemDetailContainer />
+          <Routes>
+            <Route path="/" element={<ItemListContainer destacados={"Todos los productos."} />}/>
+            <Route path="/category/:categoria" element={<ItemListContainer />}/>
+            <Route path="/detail/:id" element={<ItemDetailContainer />}/>
+          </Routes>
         </main>
       </BrowserRouter>
     </>

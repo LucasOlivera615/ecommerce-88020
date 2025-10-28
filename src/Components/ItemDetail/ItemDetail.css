@@ -1,3 +1,46 @@
+.contenedorImagenDetallesProducto {
+    border: 5px solid #e653c68c;
+    border-radius: 50px;
+    background-color: rgb(185, 183, 183);
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcionProducto {
+    text-indent: 2rem
+}
+
 .productoTexto {
+    margin-bottom: 3rem;
     color: white
+}
+
+.textoStock {
+    margin-left: 1rem;
+}
+
+.textoStock {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.subtitulosDetalleProductos {
+    font-family: "Tourney", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    font-variation-settings:
+        "wdth" 100;
+    color: #fdfdfd;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    margin-bottom: 0;
+}
+
+.filaStockContainer {
+    width: 25%;
 }

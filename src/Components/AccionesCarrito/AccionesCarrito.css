@@ -1,0 +1,18 @@
+.elementoCarrito {
+    margin-right: 1rem;
+}
+
+.botonCambiar {
+    background-color: #E653C6;
+}
+
+.botonCarrito {
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.botonAñadir {
+    background-color: #9BE483;
+}
